@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sayfa{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/background.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#navbar ul{
+    float: right;
+    list-style-type: none;
+}
+
+#navbar ul li{
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1vw;
+    padding: 10px;
+}
+
+#navbar ul li a:hover{
+    background-color: rgba(58, 58, 58, 0.644);
+    border-radius: 2px;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    color: white;
+    user-select: none;
+}
+
+#text h1{
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+#text p{
+    font-size: 1vw;
+}
+
+#cars{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+}
+
+#cars ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+#cars ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#cars ul li img{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: red;
+    width: 140px;
+    height: 170px;
+}
+
+#cars ul li #audi{
+    position: relative;
+    top: 25px;
+    left: 50px;
+    font-size: 1vw;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+#cars ul li #bmw{
+    position: relative;
+    top: 25px;
+    left: 50px;
+    font-size: 1vw;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+#cars ul li #mercedes{
+    position: relative;
+    top: 25px;
+    left: 22px;
+    font-size: 1vw;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+#cars ul li #camaro{
+    position: relative;
+    top: 25px;
+    left: 33px;
+    font-size: 1vw;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
