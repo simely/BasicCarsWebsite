@@ -79,6 +79,12 @@
     height: 170px;
 }
 
+#cars ul li a img:hover{
+    transform: translateY(-10px);
+    border-color: white;
+    transition: ease 0.5s;
+}
+
 #cars ul li #audi{
     position: relative;
     top: 25px;
