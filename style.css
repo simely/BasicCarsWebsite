@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-#sayfa{
+#page{
     background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/background.jpg);
     height: 100vh;
     width: 100%;
